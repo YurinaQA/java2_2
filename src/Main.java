@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         int initialData = 50; // Сумма на счету у клиента
-        int bonusScale = 100; // Бонусная шкала - 1 бонус за каждые полные 100 рублей пополения
+        int bonusScale = 100; // Бонусная шкала - 1 бонус за каждые полные 100 рублей пополнения
         int deposit = 1700; // Сумма пополнения
         int bonus;
 
@@ -13,10 +13,10 @@ public class Main {
             bonus = 0;
         }
 
-        int totalAccount = initialData + deposit + bonus;
+        int totalSumma = initialData + deposit + bonus;
 
         System.out.println("Пополнили счёт на " + deposit + " руб.");
         System.out.println("Бонус равен " + bonus + " руб.");
-        System.out.println("Итоговая сумма " + totalAccount + " руб.");
+        System.out.println("Итоговая сумма " + totalSumma + " руб.");
     }
 }
