@@ -8,8 +8,7 @@ public class Main {
 
         if (deposit > 1000) {
             bonus = deposit / bonusScale;
-        }
-        else {
+        } else {
             bonus = 0;
         }
 
